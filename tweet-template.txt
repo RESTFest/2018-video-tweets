@@ -1,7 +1,5 @@
-Watch “{talk title}” by {speaker name} @{twitter handle if known}
+Watch "{title}" by {speaker} - {handle}
 
-{link to video within the channel—see “Share” button on video}
+{link}
 
- 
-
-Checkout http://videos.restfest.org  for more REST Fest 2018 videos!
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
