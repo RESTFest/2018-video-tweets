@@ -1,0 +1,120 @@
+Watch "Api Team Prep (our cultural indoctrination" by  Mark Freydl - #MarkFreydl 
+
+https://vimeo.com/295975612
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "The end of the beginning of APIs" by  Steven Willmott - @njyx 
+
+https://vimeo.com/296116089
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "RESTful JSON" by  Stephen Mizell - @Stephen_Mizell 
+
+https://vimeo.com/296514416
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Hyperfiddle: A hypermedia tool for making web apps in real-time" by  Dustin Getz - @dustingetz 
+
+https://vimeo.com/296122102
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Using WebAPI to report remote service status" by  Bradley Grace - #BradleyGrace 
+
+https://vimeo.com/296112259
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "VS Code Extensions for Fun & Profit" by  Andrew Anderson - @deep_spaced 
+
+https://vimeo.com/296446751
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "My Hydra obsession: .NET server, TypeScript client, web components, generic Hydra client" by  Tomasz Pluskiewicz - @tpluscode 
+
+https:// vimeo.com/296971486
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Using Web Sequence Diagrams for your APIs" by  Mike Amundsen - @mamund 
+
+https://vimeo.com/296444458
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Security and Identity in APIs?" by  Laura Moore - #LauraMoore 
+
+https://vimeo.com/296445800
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "The RESTful Escape Room" by  Doug Cone - @nullvariable 
+
+https://vimeo.com/295979129
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "What I've been working on, PowerShell generated Endpoint" by  Mike Campbell - @exactmike 
+
+https://vimeo.com/296497346
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Putting the 1-1 in Publ1c 1nfrastructure" by  Shelby Switzer - @switzerly 
+
+https://vimeo.com/296497933
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Why do you build it?" by  David Gardner - #DavidGardner 
+
+https://vimeo.com/296515380
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Loving Linked Data with LevelGraph" by  Benjamin Young - @bigbluehat 
+
+https://vimeo.com/296515656
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Awesome Talking" by  Ryan McAllen - @rhynodesigns 
+
+https://vimeo.com/296516772
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "The Design Of Everyday APIs" by  Arnaud Lauret - @apihandyman 
+
+https://vimeo.com/295977173
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Going Beyond JSON" by  Stephen Mizell - @Stephen_Mizell 
+
+https://vimeo.com/296119395
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "Cross Check Patterns - TDD for your team meetings" by  Laura Moore - #LauraMoore 
+
+https://vimeo.com/296514808
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "GraphQL vs Links: are they two sides of the same thing?" by  Dustin Getz - @dustingetz 
+
+https://vimeo.com/296515138
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+
+Watch "undefined" by  - undefined
+
+undefined
+
+Checkout http://videos.restfest.org for more REST Fest 2018 videos!
+

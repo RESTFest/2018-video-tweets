@@ -17,8 +17,9 @@ var fs = require('fs');
 var settings = {};
 settings.template = "";
 settings.list = "";
-settings.tweetTemplate = "tweet-template.txt";
 settings.tweetList =[];
+settings.tweetTemplate = "tweet-template.txt";
+settings.writeFile = "tweet-list.txt";
 
 // top-level routine
 program
@@ -26,7 +27,7 @@ program
   .action(function(file){work(file)})
   .parse(process.argv);
 
-// top-level work  
+// the work  
 function work(file) {
   var template = "";
 
@@ -46,8 +47,7 @@ function genTweets() {
   for(i=0,x=list.length;i<x;i++) {
     settings.tweetList.push(makeTweet(list[i]));  
   }
-
-  writeFile(settings.tweetList);
+  writeFile(settings.writeFile,settings.tweetList);
 }
 
 
@@ -86,15 +86,20 @@ function parseList() {
 };
 
 // write string file
-function writeFile(list) {
+function writeFile(name,list) {
   var rtn = "";
+  var i,x;
 
-  console.log(settings.tweetList);
+  for(i=0,x=list.length;i<x;i++) {
+    rtn = rtn + list[i] + "\n";
+  } 
+ 
+  fs.writeFileSync(name,rtn);
 
   return true;
 };
 
-// load string file
+// read string file
 function readFile(file, name) {
   var rtn = "";
 
