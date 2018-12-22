@@ -30,13 +30,11 @@ program
 
 // the work  
 function work(file) {
-  var template = "";
-
   if(readFile(settings.tweetTemplate, "template")) {
     if(readFile(file, "list")) {
       genTweets();
     }
-  };
+  }
 }
 
 // generate tweets
@@ -62,7 +60,7 @@ function makeTweet(item) {
   output = output.replace("{handle}", item.handle);
 
   return output;
-};
+}
 
 // parse the input file
 function parseList() {
@@ -72,28 +70,30 @@ function parseList() {
 
   items = settings.list.split("\n");
   items.forEach(function(item) {
-    tweet = {};
-    tweet.title = item.split("::")[0];
-    tweet.speaker = item.split("::")[1];
-    tweet.link = item.split("::")[2];
-    tweet.handle = item.split("::")[3];
-    rtn.push(tweet);
+    if(item.length!==0) {
+      tweet = {};
+      tweet.title = item.split("::")[0];
+      tweet.speaker = item.split("::")[1];
+      tweet.link = item.split("::")[2];
+      tweet.handle = item.split("::")[3];
+      rtn.push(tweet);
+    }
   });
 
   return rtn;
-};
+}
 
 // write string file
 function writeFile(name,list) {
-  var rtn = "";
+  var output = "";
 
   list.forEach(function(item) {
-    rtn = rtn + item + "\n";
+    output = output + item + "\n";
   });
-  fs.writeFileSync(name,rtn);
+  fs.writeFileSync(name,output);
 
   return true;
-};
+}
 
 // read string file
 function readFile(file, name) {
