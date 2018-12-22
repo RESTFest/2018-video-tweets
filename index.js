@@ -18,6 +18,7 @@ var settings = {};
 settings.template = "";
 settings.list = "";
 settings.tweetTemplate = "tweet-template.txt";
+settings.tweetList =[];
 
 // top-level routine
 program
@@ -31,10 +32,64 @@ function work(file) {
 
   if(readFile(settings.tweetTemplate, "template")) {
     if(readFile(file, "list")) {
-      console.log(settings.list);
+      genTweets();
     }
   };
 }
+
+// generate tweets
+function genTweets() {
+  var i,x;
+  var list = parseList();
+  
+  for(i=0,x=list.length;i<x;i++) {
+    settings.tweetList.push(makeTweet(list[i]));  
+  }
+  writeFile(settings.tweetList);
+}
+
+
+// make a tweet
+function makeTweet(item) {
+  var output = "";
+  output = settings.template;
+
+  output = output.replace("{speaker}", item.title);
+  output = output.replace("{title}", item.speaker);
+  output = output.replace("{link}", item.link);
+  output = output.replace("{handle}", item.handle);
+
+  return output;
+};
+
+// parse the input file
+function parseList() {
+  var i,x;
+  var rtn = [];
+  var items = [];
+  var tweet = {};
+
+  items = settings.list.split("\n");
+  for(i=0, x=items.length;i<x;i++) {
+    tweet = {};
+    tweet.title = items[i].split("::")[0];
+    tweet.speaker = items[i].split("::")[1];
+    tweet.link = items[i].split("::")[2];
+    tweet.handle = items[i].split("::")[3];
+    rtn.push(tweet);
+  }
+
+  return rtn;
+};
+
+// write string file
+function writeFile(list) {
+  var rtn = "";
+
+  console.log(settings.tweetList);
+
+  return true;
+};
 
 // load string file
 function readFile(file, name) {
