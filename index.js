@@ -40,11 +40,13 @@ function work(file) {
 // generate tweets
 function genTweets() {
   var i,x;
-  var list = parseList();
-  
+  var list; 
+
+  list = parseList();  
   for(i=0,x=list.length;i<x;i++) {
     settings.tweetList.push(makeTweet(list[i]));  
   }
+
   writeFile(settings.tweetList);
 }
 
@@ -52,8 +54,8 @@ function genTweets() {
 // make a tweet
 function makeTweet(item) {
   var output = "";
-  output = settings.template;
 
+  output = settings.template;
   output = output.replace("{speaker}", item.title);
   output = output.replace("{title}", item.speaker);
   output = output.replace("{link}", item.link);
@@ -76,6 +78,7 @@ function parseList() {
     tweet.speaker = items[i].split("::")[1];
     tweet.link = items[i].split("::")[2];
     tweet.handle = items[i].split("::")[3];
+
     rtn.push(tweet);
   }
 
