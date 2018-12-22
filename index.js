@@ -17,7 +17,7 @@ var fs = require('fs');
 var settings = {};
 settings.template = "";
 settings.list = "";
-settings.tweetList =[];
+settings.tweetList = [];
 settings.tweetTemplate = "tweet-template.txt";
 settings.writeFile = "tweet-list.txt";
 
@@ -40,13 +40,12 @@ function work(file) {
 
 // generate tweets
 function genTweets() {
-  var i,x;
   var list; 
 
-  list = parseList();  
-  for(i=0,x=list.length;i<x;i++) {
-    settings.tweetList.push(makeTweet(list[i]));  
-  }
+  list = parseList();
+  list.forEach(function(item) {
+    settings.tweetList.push(makeTweet(item));
+  });  
   writeFile(settings.writeFile,settings.tweetList);
 }
 
@@ -66,21 +65,19 @@ function makeTweet(item) {
 
 // parse the input file
 function parseList() {
-  var i,x;
   var rtn = [];
   var items = [];
   var tweet = {};
 
   items = settings.list.split("\n");
-  for(i=0, x=items.length;i<x;i++) {
+  items.forEach(function(item) {
     tweet = {};
-    tweet.title = items[i].split("::")[0];
-    tweet.speaker = items[i].split("::")[1];
-    tweet.link = items[i].split("::")[2];
-    tweet.handle = items[i].split("::")[3];
-
+    tweet.title = item.split("::")[0];
+    tweet.speaker = item.split("::")[1];
+    tweet.link = item.split("::")[2];
+    tweet.handle = item.split("::")[3];
     rtn.push(tweet);
-  }
+  });
 
   return rtn;
 };
@@ -88,12 +85,10 @@ function parseList() {
 // write string file
 function writeFile(name,list) {
   var rtn = "";
-  var i,x;
 
-  for(i=0,x=list.length;i<x;i++) {
-    rtn = rtn + list[i] + "\n";
-  } 
- 
+  list.forEach(function(item) {
+    rtn = rtn + item + "\n";
+  });
   fs.writeFileSync(name,rtn);
 
   return true;
