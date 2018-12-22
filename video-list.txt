@@ -1,19 +1,19 @@
-"Mark Freydl"::"Api Team Prep (our cultural indoctrination)"::"https://vimeo.com/295975612"::"#MarkFreydl"
-"Steven Willmott"::"The end of the beginning of APIs"::"https://vimeo.com/296116089"::"@njyx"
-"Stephen Mizell"::"RESTful JSON"::"https://vimeo.com/296514416"::"@Stephen_Mizell"
-"Dustin Getz"::"Hyperfiddle: A hypermedia tool for making web apps in real-time"::"https://vimeo.com/296122102"::"@dustingetz"
-"Bradley Grace"::"Using WebAPI to report remote service status"::"https://vimeo.com/296112259"::"#BradleyGrace"
-"Andrew Anderson"::"VS Code Extensions for Fun & Profit"::"https://vimeo.com/296446751"::"@deep_spaced"
-"Tomasz Pluskiewicz"::"My Hydra obsession: .NET server, TypeScript client, web components, generic Hydra client"::"https://"vimeo.com/296971486"::"@tpluscode"
-"Mike Amundsen"::"Using Web Sequence Diagrams for your APIs"::"https://vimeo.com/296444458"::"@mamund"
-"Laura Moore"::"Security and Identity in APIs?"::"https://vimeo.com/296445800"::"#LauraMoore"
-"Doug Cone"::"The RESTful Escape Room"::"https://vimeo.com/295979129"::"@nullvariable"
-"Mike Campbell"::"What I've been working on, PowerShell generated Endpoint"::"https://vimeo.com/296497346"::"@exactmike"
-"Shelby Switzer"::"Putting the 1-1 in Publ1c 1nfrastructure"::"https://vimeo.com/296497933"::"@switzerly"
-"David Gardner"::"Why do you build it?"::"https://vimeo.com/296515380"::"#DavidGardner"
-"Benjamin Young"::"Loving Linked Data with LevelGraph"::"https://vimeo.com/296515656"::"@bigbluehat"
-"Ryan McAllen"::"Awesome Talking"::"https://vimeo.com/296516772"::"@rhynodesigns"
-"Arnaud Lauret"::"The Design Of Everyday APIs"::"https://vimeo.com/295977173"::"@apihandyman"
-"Stephen Mizell"::"Going Beyond JSON"::"https://vimeo.com/296119395"::"@Stephen_Mizell"
-"Laura Moore"::"Cross Check Patterns - TDD for your team meetings"::"https://vimeo.com/296514808"::"#LauraMoore"
-"Dustin Getz"::"GraphQL vs Links: are they two sides of the same thing?"::"https://vimeo.com/296515138"::"@dustingetz"
+ Mark Freydl :: Api Team Prep (our cultural indoctrination) :: https://vimeo.com/295975612 :: #MarkFreydl 
+ Steven Willmott :: The end of the beginning of APIs :: https://vimeo.com/296116089 :: @njyx 
+ Stephen Mizell :: RESTful JSON :: https://vimeo.com/296514416 :: @Stephen_Mizell 
+ Dustin Getz :: Hyperfiddle: A hypermedia tool for making web apps in real-time :: https://vimeo.com/296122102 :: @dustingetz 
+ Bradley Grace :: Using WebAPI to report remote service status :: https://vimeo.com/296112259 :: #BradleyGrace 
+ Andrew Anderson :: VS Code Extensions for Fun & Profit :: https://vimeo.com/296446751 :: @deep_spaced 
+ Tomasz Pluskiewicz :: My Hydra obsession: .NET server, TypeScript client, web components, generic Hydra client :: https:// vimeo.com/296971486 :: @tpluscode 
+ Mike Amundsen :: Using Web Sequence Diagrams for your APIs :: https://vimeo.com/296444458 :: @mamund 
+ Laura Moore :: Security and Identity in APIs? :: https://vimeo.com/296445800 :: #LauraMoore 
+ Doug Cone :: The RESTful Escape Room :: https://vimeo.com/295979129 :: @nullvariable 
+ Mike Campbell :: What I've been working on, PowerShell generated Endpoint :: https://vimeo.com/296497346 :: @exactmike 
+ Shelby Switzer :: Putting the 1-1 in Publ1c 1nfrastructure :: https://vimeo.com/296497933 :: @switzerly 
+ David Gardner :: Why do you build it? :: https://vimeo.com/296515380 :: #DavidGardner 
+ Benjamin Young :: Loving Linked Data with LevelGraph :: https://vimeo.com/296515656 :: @bigbluehat 
+ Ryan McAllen :: Awesome Talking :: https://vimeo.com/296516772 :: @rhynodesigns 
+ Arnaud Lauret :: The Design Of Everyday APIs :: https://vimeo.com/295977173 :: @apihandyman 
+ Stephen Mizell :: Going Beyond JSON :: https://vimeo.com/296119395 :: @Stephen_Mizell 
+ Laura Moore :: Cross Check Patterns - TDD for your team meetings :: https://vimeo.com/296514808 :: #LauraMoore 
+ Dustin Getz :: GraphQL vs Links: are they two sides of the same thing? :: https://vimeo.com/296515138 :: @dustingetz 
