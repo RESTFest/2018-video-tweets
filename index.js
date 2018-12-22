@@ -14,6 +14,7 @@
 
 var program = require('commander');
 var fs = require('fs');
+
 var settings = {};
 settings.template = "";
 settings.list = "";
